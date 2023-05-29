@@ -1,0 +1,62 @@
+h1{
+    color:rgb(145, 0, 77)
+}
+{
+    border:solid
+}
+.header{
+    background-color: FFBCE5;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: ;
+}
+.grid{
+    background-color: BCFCFF;
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: F0EE77;
+    display:flex;
+justify-content:space-around;
+}
+p, h4{
+    color: black;
+    text-align: center;
+}
+.item{
+    background-color: 108B90;
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: magenta;
+    opacity: 0;
+}
+.item:hover img{
+    opacity: .333333333333333333333333333333333333333333333333333333333333333333;
+}
+.item:hover p{
+    opacity: 1;
+}
+.strengths{
+    background-color: 77EEF0;
+}
+.johns_facts{
+    background-color: EF1090;
+}
+h1{
+    padding: 15px;
+}
+.menu{
+    margin: 30px;
+}
+a:link{
+    color: crimson;
+}
+a:visited{
+    color: forestgreen;
+}
